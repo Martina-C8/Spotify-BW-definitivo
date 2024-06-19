@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    background-color: black;
+  }
+  .sidebar {
+    width: 23%;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 20px;
+  }
+  .sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+  }
+  .sidebar a:hover {
+    cursor: pointer;
+  }
+  .container1 {
+    /*background-color:#242424;*/
+    width: 95%;
+    margin: 0 auto;
+    background-color: #121212;
+    color: white;
+    top: 5px;
+    border-radius: 15px;
+    margin-bottom: 2em;
+  }
+  
+  .container2 {
+    margin-top: 3em;
+    width: 95%;
+    height: 30em;
+    margin: 0 auto;
+    background-color:#121212;
+    color: white;
+    top: 5px;
+    border-radius: 15px;
+  }
+  main, .content {
+    margin-left: 23%;
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .playlist {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .follow {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+  
+  }
+  .btn1 {
+    border-radius: 25px;
+    padding: 10px;
+    height: 2.8em;
+    border: none;
+    /* width: 40%; */
+    transition: transform 0.5s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn1:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1); /* Aumenta la dimensione del bottone del 10% */
+  
+  }
+  .btn2 {
+    border-radius: 25px;
+    padding: 10px;
+    height: 2.8em;
+    border: none;
+    /* width: 60%; */
+    transition: transform 0.5s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn2:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1); /* Aumenta la dimensione del bottone del 10% */
+  
+  }
+  .sideFooter a {
+    font-size: 0.6em;
+    margin-left: 3em;
+  }
+  .sideFooter a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .btn3 {
+    border-radius: 25px;
+    padding: 10px;
+    height: 2.8em;
+    width: 30%;
+    margin-left: 10%;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+  }
+
+nav {
+    padding: 1.5em;
+    background-color: #121212;
+    position:fixed;
+    width: 76.5%;
+    left: calc(23% + 2px);
+    border-radius: 15px 15px 0 0;
+    top: 2empx;
+}
+.bottoni1 button {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #101010;
+  color: white;
+} 
+.btn4 {
+  border-radius: 25px;
+  padding: 10px 15px;
+  height: 2.8em;
+  border: none;
+  background-color: #101010;
+  color: #686868;
+  transition: transform 0.5s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn4:hover {
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1); /* Aumenta la dimensione del bottone del 10% */
+}
+
+.btn5 {
+  border-radius: 30px;
+  padding: 10px 20px;
+  height: 2.8em;
+  border: none;
+  transition: transform 0.5s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn5:hover {
+  background-color: white;
+  transform: scale(1.2); /* Aumenta la dimensione del bottone del 10% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#title {
+  position: relative;
+  top: 5em;
+  margin-left: calc(15% + 2px);
+  color: white;
+  /* background-color: aquamarine; */
+}
+
+#contentArtist {
+  position: relative;
+  top: 8em;
+  margin-left: calc(15% + 2px);
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+}
+  
+
+/* #contentAlbum {
+  position: relative;
+  top: 6em;
+  margin-left: calc(15% + 2px);
+  width: 100%;
+  height: 100%;
+} */
+/* #title:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}   */
+#title h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#title p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+#titleAlbum {
+  position: relative;
+  top: 8em;
+  margin-left: calc(15% + 2px);
+  color: white;
+  /* background-color: blue; */
+}
+#titleALbum h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#titleALbum p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+#contentAlbum {
+  position: relative;
+  top: 9em;
+  margin-left: calc(15% + 2px);
+  width: 100%;
+  height: 100%;
+  /* background-color:chartreuse; */
+}
+#artistImage, #albumImage {
+  border-radius: 50%;
+  width: 100%;
+}
+
+
+/* Stili per dispositivi piccoli */
+@media only screen and (max-width: 600px) {
+  /* Inserire qui gli stili per dispositivi piccoli */
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    background-color: black;
+    font-size: small;
+  }
+  .sidebar {
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 20px;
+  }
+
+  .content {
+    margin-left: 50%;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  nav {
+    background-color: #121212;
+    position:fixed;
+    width: 50%;
+    left: calc(50% + 2px);
+    border-radius: 15px 15px 0 0;
+    top: 2em;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+  }
+}
+
+/* Stili per dispositivi medi */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Inserire qui gli stili per dispositivi medi */
+}
+
+/* Stili per dispositivi grandi */
+@media only screen and (min-width: 1025px) {
+  /* Inserire qui gli stili per dispositivi grandi */
+}
+
+
+
