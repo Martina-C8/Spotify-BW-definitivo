@@ -286,4 +286,55 @@ nav {
 }
 
 
+/*style samu
+footer{
+  background-color: black;
+}
+table{
+  display: flex;
+  text-align: start;
+}
 
+tbody{
+  
+  font-size:medium;
+  color: rgb(110, 102, 102);
+  margin-right: 61px;
+
+}
+tbody td:hover{
+  text-decoration: underline;
+}
+tbody tr:first-child{
+  color: white;
+  
+}
+tbody tr:first-child :hover{
+  text-decoration: none;
+}
+.superfooter{
+  margin-left: 15%;
+  padding-bottom: 5px;
+  padding-top: 90px;
+}
+footer svg{
+ 
+  fill: gray;
+  width: 15px;
+  margin-top: 6px;
+}
+
+tbody td .icone div{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color:rgb(68, 64, 64);
+  text-align: center;
+  margin-right: 5px;
+}
+.icone{
+  display: flex;
+}
+p{
+  color: white(80, 37, 37);
+}*/
