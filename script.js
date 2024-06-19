@@ -29,7 +29,7 @@ function prova(artist) {
       const ALBUM = document.getElementById("contentAlbum");
       data.data.slice(0, 1).forEach((element) => {
         ARTIST.innerHTML += `<div class="card col-12 col-sm-6 col-md-3 col-lg-2 bg-transparent" id="artist">
-                <a href="#"><img src="${element.artist.picture_medium}"  class="card-img-top" id="artistImage"></a>
+                <a href="./dettagliArtist.html?id=${element.artist.id}"><img src="${element.artist.picture_medium}"  class="card-img-top" id="artistImage"></a>
                 <div class="card-body">
                 <h5 class="card-title text-white">${element.artist.name}</h5>
                 <p class="card-text text-white">Artist</p>
@@ -37,7 +37,7 @@ function prova(artist) {
             </div>`;
 
         ALBUM.innerHTML += `<div class="card col-12 col-sm-6 col-md-3 col-lg-2 bg-transparent" id="album">
-                <a href="#"><img src="${element.album.cover_medium}"  class="card-img-top" id="albumImage"></a>
+                <a href="./albumDettagli.html?id=${element.album.id}"><img src="${element.album.cover_medium}"  class="card-img-top" id="albumImage"></a>
                 <div class="card-body">
                 <h5 class="card-title text-white">${element.album.title}</h5>
                 <p class="card-text text-white">${element.artist.name}</p>
